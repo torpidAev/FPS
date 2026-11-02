@@ -1145,8 +1145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a24367a128d6174e9ff5ff0d9996367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamHolderTilt
-  tiltAmount: 5
-  tiltSpeed: 12
+  tiltAmount: 3
+  tiltSpeed: 6
 --- !u!1001 &1943901572
 PrefabInstance:
   m_ObjectHideFlags: 0
