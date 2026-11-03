@@ -1295,10 +1295,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4897732323685117858, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b8a450f6a33ccf40825550f72fa9105, type: 2}
     - target: {fileID: 919132149155446097, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
       propertyPath: m_Name
       value: Stocked&Loaded Map
       objectReference: {fileID: 0}
+    - target: {fileID: 5447331667604542231, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 20c68eeadc254a74698c65d4fa37a4f5, type: 2}
+    - target: {fileID: 6362670535118921867, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fe111afc1a3e014f8d44ba66f538e7a, type: 2}
     m_RemovedComponents:
     - {fileID: 7133821423971677224, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
     - {fileID: -3659206973579509404, guid: 02ceceb8e4945124da5aee6f39ba73db, type: 3}
