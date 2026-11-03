@@ -36,7 +36,7 @@ ModelImporter:
       takeName: Armature|ArmatureAction
       internalID: 4781951162920444690
       firstFrame: 0
-      lastFrame: 11
+      lastFrame: 23
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -60,10 +60,10 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.15
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -113,7 +113,72 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: BreadImp(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: BreadImp(Clone)
+      position: {x: -5.453185e-17, y: 0.34515727, z: -0.13495241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.1372298, y: 0.1372298, z: 0.1372298}
+    - name: Body
+      parentName: Armature
+      position: {x: -5.894728e-10, y: -0.89796275, z: -0.0703423}
+      rotation: {x: 0.775115, y: -0.00000007290831, z: -0.00000009547573, w: 0.6318202}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Head
+      parentName: Body
+      position: {x: 0.00000002431949, y: 2.9692748, z: 0.00000017695129}
+      rotation: {x: -0.23250675, y: -6.112728e-10, z: 0.000000054917905, w: 0.9725948}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Hip.L
+      parentName: Armature
+      position: {x: 8.606667e-18, y: -0.89796275, z: -0.0970819}
+      rotation: {x: -0.050028145, y: -0.046289895, z: 0.7154077, w: 0.6953749}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Leg.L
+      parentName: Hip.L
+      position: {x: 0.000000042025928, y: 0.78370196, z: -4.656613e-10}
+      rotation: {x: -0.6438018, y: 0.00000008381903, z: 0.12698418, w: 0.7545822}
+      scale: {x: 0.99999964, y: 1.0000002, z: 0.99999994}
+    - name: Leg.L.001
+      parentName: Leg.L
+      position: {x: -0.000000029802322, y: 0.9704463, z: 0.00000004470348}
+      rotation: {x: -0.030067237, y: -0.0000000103253806, z: -0.15158647, w: 0.9879866}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Foot.L
+      parentName: Leg.L.001
+      position: {x: -0.00000008940696, y: 1.1013205, z: 0.0000000745058}
+      rotation: {x: 0.142514, y: -0.00000012735005, z: 0.7185059, w: 0.68076366}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: Hip.R
+      parentName: Armature
+      position: {x: -8.606667e-18, y: -0.89796275, z: -0.0970819}
+      rotation: {x: 0.050028145, y: -0.046289895, z: 0.7154077, w: -0.6953749}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Leg.R
+      parentName: Hip.R
+      position: {x: -0.000000042025928, y: 0.78370196, z: -4.656613e-10}
+      rotation: {x: -0.6438018, y: -0.000000052154064, z: -0.12698418, w: 0.7545822}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Leg.R.001
+      parentName: Leg.R
+      position: {x: -0.000000059604645, y: 0.97044635, z: 0.00000011920929}
+      rotation: {x: -0.030067237, y: -0.000000028179132, z: 0.15158643, w: 0.9879866}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: Foot.R
+      parentName: Leg.R.001
+      position: {x: -0.000000059604645, y: 1.1013203, z: 0.000000029802322}
+      rotation: {x: 0.14251399, y: 0.000000054435393, z: -0.7185059, w: 0.68076354}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Cube
+      parentName: BreadImp(Clone)
+      position: {x: -4.7048458e-17, y: 0.21188742, z: 0.11628225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1372298, y: 0.1372298, z: 0.1372298}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -121,7 +186,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.15
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
@@ -130,7 +195,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
