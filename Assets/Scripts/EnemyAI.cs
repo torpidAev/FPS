@@ -4,6 +4,7 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     private Transform target;
+    
     public float speed;
 
     public float rotationSpeed;
