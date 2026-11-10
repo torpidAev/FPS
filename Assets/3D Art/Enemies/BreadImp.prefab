@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &442150767264637615
+--- !u!1001 &7102700441591349840
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.49
+      value: 2.2226877
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.028231442
+      value: -0.81822824
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.3
+      value: -1.1524482
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,11 +50,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_Name
-      value: BreadImp
+      value: BreadImp 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       propertyPath: m_Controller
@@ -74,26 +78,29 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6361105528153371078}
+      addedObject: {fileID: 323105458068537025}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8954307056533948230}
+      addedObject: {fileID: 9164921760213085346}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3005716826895232197}
+      addedObject: {fileID: 3182517269169335786}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4977026490689490309}
   m_SourcePrefab: {fileID: 100100000, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
---- !u!1 &784677564377767934 stripped
+--- !u!1 &7949053155379855105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 22fc1f56c1380e7409eaff052a250c67, type: 3}
-  m_PrefabInstance: {fileID: 442150767264637615}
+  m_PrefabInstance: {fileID: 7102700441591349840}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &6361105528153371078
+--- !u!54 &323105458068537025
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784677564377767934}
+  m_GameObject: {fileID: 7949053155379855105}
   serializedVersion: 5
   m_Mass: 1
   m_LinearDamping: 0
@@ -114,27 +121,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8954307056533948230
+--- !u!114 &9164921760213085346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784677564377767934}
+  m_GameObject: {fileID: 7949053155379855105}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1eebd9855b4ce14fbae7f79337b6e8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NavAgent
   target: {fileID: 0}
-  rotationSpeed: 5
---- !u!195 &3005716826895232197
+  rotationSpeed: 4
+--- !u!195 &3182517269169335786
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784677564377767934}
+  m_GameObject: {fileID: 7949053155379855105}
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
@@ -150,3 +157,24 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &4977026490689490309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949053155379855105}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6, y: 1, z: 0.6}
+  m_Center: {x: 0, y: 0.5, z: 0}
