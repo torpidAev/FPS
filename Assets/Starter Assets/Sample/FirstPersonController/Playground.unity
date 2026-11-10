@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeaponFire
   FirePoint: {fileID: 1081950778}
-  ShootForce: 300
+  ShootForce: 750
   BulletPrefab: {fileID: 5777202835913742323, guid: 315df17a8db5851448c1a89f62678fdb, type: 3}
 --- !u!1 &411462117 stripped
 GameObject:
