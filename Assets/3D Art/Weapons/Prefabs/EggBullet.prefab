@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c375e17459b766841adfcc88ba0afa89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  damageValue: 100
+  destroyOnHit: 1
 --- !u!54 &6672212154251687921
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
     bool isDead = false;
     Collider enemyColl;
 
-    public void  TakeDamage (int damageAmount)
+    public void  TakeDamage(float damageAmount)
     {
         hitPoints -= damageAmount;
     }
