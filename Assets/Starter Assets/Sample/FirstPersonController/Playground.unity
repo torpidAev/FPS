@@ -299,6 +299,8 @@ MonoBehaviour:
   FirePoint: {fileID: 1081950778}
   ShootForce: 1000
   BulletPrefab: {fileID: 3855234734885796649, guid: 33e6d6915eb03a747bba3a2bac29b5f5, type: 3}
+  FireRate: 0.5
+  ShootCooldown: 1
 --- !u!1 &411462117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
@@ -1225,7 +1227,7 @@ Transform:
   m_GameObject: {fileID: 1081950777}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.00022477626, y: -0.010379991, z: 0.00052946806}
+  m_LocalPosition: {x: -0.00022477626, y: -0.01109, z: 0.00065}
   m_LocalScale: {x: 0.01, y: 0.010000002, z: 0.010000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
