@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
-            Destroy(other.gameObject);
+            other.gameObject.GetComponent<EnemyHealth>().TakeDamage(50);
         }
         if (other.gameObject.CompareTag("Untagged"))
         {
