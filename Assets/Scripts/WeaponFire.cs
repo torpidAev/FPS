@@ -9,6 +9,7 @@ public class WeaponFire : MonoBehaviour
     [SerializeField] private GameObject BulletPrefab;
     [SerializeField] private float FireRate = 0.5f;
     [SerializeField] private float ShootCooldown = 0.5f;
+    [SerializeField] private bool HoldToShoot = false;
 
     private float NextFireTime = 0f;
 
@@ -20,9 +21,20 @@ public class WeaponFire : MonoBehaviour
         shootAction.started += OnAttackButtonPressed;
     }
 
+    private void Update()
+    {
+        if (HoldToShoot && shootAction != null && shootAction.IsPressed())
+        {
+            Shoot();
+        }
+    }
+
     private void OnAttackButtonPressed(InputAction.CallbackContext context)
     {
-        Shoot();
+        if (!HoldToShoot)
+        {
+            Shoot();
+        }
     }
 
     private void Shoot()
