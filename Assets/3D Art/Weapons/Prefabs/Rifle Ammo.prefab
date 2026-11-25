@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f31170ac8607e9649a4a9c60d72bca52, type: 2}
     - target: {fileID: 919132149155446097, guid: 6af5c5198096b83439c7fac3a2eb96f4, type: 3}
       propertyPath: m_Name
-      value: EggBullet
+      value: Rifle Ammo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6af5c5198096b83439c7fac3a2eb96f4, type: 3}
       propertyPath: m_TagString
@@ -107,7 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c375e17459b766841adfcc88ba0afa89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  damageValue: 100
+  Lifetime: 5
+  damageValue: 200
   destroyOnHit: 1
 --- !u!54 &6672212154251687921
 Rigidbody:

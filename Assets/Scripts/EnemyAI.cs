@@ -8,6 +8,7 @@ public class EnemyAI : MonoBehaviour
     public float speed;
 
     public float rotationSpeed;
+    
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
